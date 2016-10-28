@@ -79,11 +79,27 @@
   border: 1px solid #333;
   height: 720px;
 }
-.wrap h1 {
+.wrap .page_title {
   margin: 0;
   padding: 7px 15px 8px;
+  overflow: hidden;
   background: #333;
+}
+.wrap .page_title h1 {
+  margin: 0;
   color: #f6f6f6;
+  float: left;
+}
+.wrap .page_title .github {
+  margin: 0;
+  padding: 6px 0;
+  float: right;
+  color: #f6f6f6;
+  line-height: 24px;
+  font-size: 24px;
+}
+.wrap .page_title .github:hover {
+  opacity: .8;
 }
 
 .block {
