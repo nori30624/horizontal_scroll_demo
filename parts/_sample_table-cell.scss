@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* sample table-cell */
+#sample_table-cell {
+  .gnav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .item {
+      background: #444;
+      display: table-cell;
+      &:hover {
+        opacity: 0.9;
+        a:hover {
+          opacity: 0.9;
+        }
+      }
+      a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #f6f6f6;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* sample inline-block */
+#sample_inline-block {
+  .gnav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background: #ccc;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .item {
+      display: inline-block;
+      white-space: normal;
+      border-bottom: 2px solid #ccc;
+      background: #ccc;
+      &:hover {
+        background: #ddd;
+        border-bottom: 2px solid #444;
+      }
+      a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #444;
+      }
+    }
+  }
+}
